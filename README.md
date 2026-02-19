@@ -1,6 +1,6 @@
 # SysMon — macOS System Monitor Widget
 
-[한국어](README.ko.md)
+> **[🇰🇷 한국어 문서 보기](README.ko.md)**
 
 A lightweight, always-on-top desktop widget for real-time macOS system monitoring.
 
