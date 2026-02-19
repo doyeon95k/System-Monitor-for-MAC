@@ -9,6 +9,12 @@ Built with Python + PyObjC (native Cocoa).
 ![macOS](https://img.shields.io/badge/macOS-12%2B-blue)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-yellow)
 
+## Screenshots
+
+| System | Disk | Activity |
+|:---:|:---:|:---:|
+| ![System](screenshots/system_tab.png) | ![Disk](screenshots/disk_tab.png) | ![Activity](screenshots/activity_tab.png) |
+
 ## Features
 
 ### System Tab

@@ -7,6 +7,12 @@ Python + PyObjC (네이티브 Cocoa) 기반으로 제작되었습니다.
 ![macOS](https://img.shields.io/badge/macOS-12%2B-blue)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-yellow)
 
+## 스크린샷
+
+| System | Disk | Activity |
+|:---:|:---:|:---:|
+| ![System](screenshots/system_tab.png) | ![Disk](screenshots/disk_tab.png) | ![Activity](screenshots/activity_tab.png) |
+
 ## 주요 기능
 
 ### System 탭
