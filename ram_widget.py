@@ -872,7 +872,7 @@ def build_ui(delegate):
     tab_ctrl.setSegmentCount_(3)
     tab_ctrl.setLabel_forSegment_("System", 0)
     tab_ctrl.setLabel_forSegment_("Disk", 1)
-    tab_ctrl.setLabel_forSegment_("Process", 2)
+    tab_ctrl.setLabel_forSegment_("Activity", 2)
     tab_ctrl.setWidth_forSegment_(seg_w, 0)
     tab_ctrl.setWidth_forSegment_(seg_w, 1)
     tab_ctrl.setWidth_forSegment_(seg_w, 2)
