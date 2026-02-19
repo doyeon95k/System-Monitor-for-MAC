@@ -1,5 +1,7 @@
 # SysMon — macOS System Monitor Widget
 
+[한국어](README.ko.md)
+
 A lightweight, always-on-top desktop widget for real-time macOS system monitoring.
 
 Built with Python + PyObjC (native Cocoa).
