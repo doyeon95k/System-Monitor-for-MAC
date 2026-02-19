@@ -251,10 +251,15 @@ def make_proc_row(parent, y, idx, delegate, font, font_small, view_list):
     view_list.append(cpu_lbl)
 
     btn = AppKit.NSButton.alloc().initWithFrame_(
-        AppKit.NSMakeRect(PAD + name_w + cpu_w + 6, y + 1, btn_w, 20))
-    btn.setBezelStyle_(AppKit.NSBezelStyleInline)
+        AppKit.NSMakeRect(PAD + name_w + cpu_w + 6, y + 2, btn_w, 20))
+    btn.setBezelStyle_(AppKit.NSBezelStyleRounded)
+    btn.setBordered_(False)
+    btn.setWantsLayer_(True)
+    btn.layer().setBackgroundColor_(_c(0.85, 0.25, 0.25).CGColor())
+    btn.layer().setCornerRadius_(4)
     btn.setTitle_("Quit")
-    btn.setFont_(AppKit.NSFont.systemFontOfSize_(9))
+    btn.setFont_(AppKit.NSFont.boldSystemFontOfSize_(9))
+    btn.setContentTintColor_(AppKit.NSColor.whiteColor())
     btn.setTag_(idx)
     btn.setTarget_(delegate)
     btn.setAction_(
