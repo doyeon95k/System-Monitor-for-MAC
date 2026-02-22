@@ -13,12 +13,14 @@ from setuptools import setup
 APP = ['ram_widget.py']
 OPTIONS = {
     'argv_emulation': False,
+    'iconfile': 'AppIcon.icns',
     'plist': {
         'CFBundleName': 'SysMon',
         'CFBundleIdentifier': 'com.user.sysmon',
         'CFBundleVersion': '1.0',
         'CFBundleShortVersionString': '1.0',
         'LSUIElement': True,
+        'CFBundleIconFile': 'AppIcon',
     },
     'packages': ['psutil'],
     'frameworks': [],
